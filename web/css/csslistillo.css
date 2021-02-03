@@ -1,0 +1,83 @@
+html{
+	font-family:Cambria;
+	color: #0C2F55;
+}
+
+body{
+	
+  background-image: url('../imagenes/fondo15admin.png');
+  background-size: 1400px;
+}
+
+
+form {
+  width:25%;
+  margin:20px;
+  padding:20px;
+}
+
+h1{
+	font-size:28px;
+	font-style:bold;
+	display:block;
+	width:100%;
+	
+}
+
+h2{
+	font-size:28px;
+	font-style:bold;
+	display:block;
+	width:100%;
+	margin-left:60px;
+}
+
+img{
+	margin-left:80px;
+}
+
+form{
+	width:450px;
+	padding:16px;
+	border:#377E71 4px outset;
+	border-radius:10px;
+	margin:auto;
+	margin-top:100px;
+	background-color:#C9EDE6 ;
+	font-style: bold;
+	font-size: 40%;
+	color: #fff;
+}
+
+
+
+
+input{
+	margin-bottom:20px;
+	width:60%;
+	padding:10px;
+	box-sizing: border-box;
+	border-radius:10px;
+	border:1px solid #ccc;
+	font-size:20px;
+	
+}
+
+input:focus{
+	border:2px solid #1668C4;
+}
+
+
+input[type="button"]{
+	margin-top:13px;
+	margin-left:95px;
+	margin-bottom:0px;
+	background:#9C2BA1;
+	color:#fff;
+	border:none;
+}
+
+input[type="button"]:hover{
+	background:#BF9FC7;
+	cursor:pointer;
+}

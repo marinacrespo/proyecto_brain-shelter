@@ -1,0 +1,101 @@
+html{
+	font-family:Cambria;
+	color: #000000;
+}
+
+h1{
+	font-size:40px;
+	font-style:bold;
+	display:block;
+	width:100%;
+	margin-left:60px;
+	
+}
+
+h2{
+	font-size:40px;
+	font-style:bold;
+	display:block;
+	width:100%;
+	margin-left:60px;
+}
+
+img{
+  width:150px;
+  height:auto;
+}
+
+
+table{
+	background:#EFDDF2;
+	border:none;
+	border-collapse:collapse;
+	border-radius:10px;
+	margin:60px;
+	margin-left:90px;
+	width:550px;
+	height:auto;
+	font-size:23px;
+	
+}
+
+th, td{
+	padding:40px;
+
+}
+
+
+th{
+	background-color:#4F0C5B;
+	border-bottom: solid 5px #774C7F;
+	color:white;
+	width:100px;
+}
+
+tr:nth-child(even){
+	background-color:#BB90C3;
+}
+
+tr:hover{
+	background-color:#B3E58E;
+}
+
+label{
+	font-size:18px;
+	display:block;
+	width:100%;
+	
+}
+
+input[type="button"]{
+	margin-top:13px;
+	margin-left:100px;
+	margin-bottom:0px;
+	background:#000000;
+	color:#fff;
+	border:solid 1px #774C7F;
+	border-radius:10px;
+	height:60px;
+	width:300px;
+	font-size:25px;
+	font-weight:bold;
+	font-family:Arial;
+}
+
+
+input:focus{
+	border:2px solid #1668C4;
+}
+
+input[type="button"]:hover{
+	background:#BF9FC7;
+	cursor:pointer;
+}
+
+td > input{
+	margin-top:15px;
+	font-size:25px;
+	width:40px;
+	height:40px;
+}
+

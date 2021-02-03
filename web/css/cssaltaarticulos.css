@@ -1,0 +1,105 @@
+html{
+	font-family:Cambria;
+	color: #000000;
+}
+
+h1{
+	font-size:40px;
+	font-style:bold;
+	display:block;
+	width:100%;
+	
+}
+
+h2{
+	font-size:40px;
+	font-style:bold;
+	display:block;
+	width:100%;
+	margin-left:60px;
+}
+
+form {
+  width:25%;
+  margin:20px;
+  padding:20px;
+}
+
+label{
+	font-size:24px;
+	font-style:bold;
+	display:block;
+	width:100%;
+	
+}
+
+form{
+	width:450px;
+	padding:16px;
+	border:#FFD7AB 4px outset;
+	border-radius:10px;
+	margin:auto;
+	margin-top:80px;
+	background-color:#67451E;
+	font-style: bold;
+	font-size: 40%;
+	color: #FFD7AB;
+}
+
+
+input{
+	margin-bottom:20px;
+	width:60%;
+	padding:10px;
+	box-sizing: border-box;
+	border-radius:10px;
+	border:1px solid #ccc;
+	font-size:20px;
+}
+
+input:focus{
+	border:2px solid #1668C4;
+}
+
+input[type="text"]{
+	margin-top:7px;
+}
+
+input[type="password"]{
+	margin-top:7px;
+}
+
+input[type="submit"]{
+	margin-top:20px;
+	margin-bottom:20px;
+	background:#A5835C;
+	font-style:bold;
+	color:#000000;
+	border:none;
+}
+
+input[type="submit"]:hover{
+	background:#4A88F4;
+	cursor:pointer;
+}
+
+input[type="button"]{
+	margin-top:13px;
+	margin-left:10px;
+	margin-bottom:20px;
+	background:#A5835C;
+	color:#000000;
+	border:solid 1px #774C7F;
+	border-radius:10px;
+	height:60px;
+	width:290px;
+	font-size:25px;
+	font-weight:bold;
+	font-family:Cambria;
+	
+}
+
+input[type="button"]:hover{
+	background:#BF9FC7;
+	cursor:pointer;
+}
